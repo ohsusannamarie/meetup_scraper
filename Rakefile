@@ -7,7 +7,7 @@ require 'fileutils'
 Bundler.require :default
 
 ## SET THE MEETUP.COM GROUP NAME
-GROUP_NAME = 'ReactJS-OC'
+GROUP_NAME = 'ocruby'
 
 def add_to_file(url: nil, type: nil)
   puts "adding #{url} to tmp/#{type}.csv"
