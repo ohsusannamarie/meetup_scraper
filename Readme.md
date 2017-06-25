@@ -10,7 +10,7 @@ You may run into issues installing the nokogiri gem, in that case nokogiri has a
 bundle install
 ```
 
-if you do not have Ruby 2.2.4 installed, and you are running a different version of ruby, make sure to go into the Gemfile and remove or comment out the line that says ruby '2.2.4'
+If you do not have Ruby 2.2.4 installed, make sure to go into the Gemfile and remove or comment out the line that says ruby '2.2.4'.
 
 ```ruby
 # comment out if you do not want to run code with your ruby version, I was using 2.2.4 on my computer.
