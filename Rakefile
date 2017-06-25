@@ -7,7 +7,7 @@ require 'fileutils'
 Bundler.require :default
 
 ## SET THE MEETUP.COM GROUP NAME
-GROUP_NAME = 'ocruby'
+GROUP_NAME = 'some-meetup-group'
 
 def add_to_file(url: nil, type: nil)
   puts "adding #{url} to tmp/#{type}.csv"
