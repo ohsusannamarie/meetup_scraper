@@ -13,7 +13,7 @@ bundle install
 If you do not have Ruby 2.2.4 installed, make sure to go into the Gemfile and remove or comment out the line that says ruby '2.2.4'.
 
 ```ruby
-# comment out if you do not want to run code with your ruby version, I was using 2.2.4 on my computer.
+# comment out if you do not have the same ruby version, I was using 2.2.4 on my computer.
 ruby '2.2.4'
 ```
 
