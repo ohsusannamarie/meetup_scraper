@@ -63,7 +63,7 @@ task :scrape_meetup_users do
   last_page = false
   ct = 0
   while last_page == false do
-    page_url = "https://www.meetup.com/#{GROUP_NAME}/members/?offset=#{start_num}&sort=last_visited&desc=1"
+    page_url = "https://www.meetup.com/#{Women-Who-Code-Seattle}/members/?offset=#{start_num}&sort=last_visited&desc=1"
     page = Nokogiri::HTML(open(page_url))
     member_list = page.css('ul#memberList li div a')
     tmp = nil
